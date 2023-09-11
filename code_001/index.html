@@ -1,0 +1,159 @@
+<html>
+
+<head>
+    <title>自我介绍</title>
+    <link rel="stylesheet" href="plug/swiper/swiper-bundle.min.css">
+    <style lang="scss">
+        .infobox {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .headpic {
+                padding: 30px;
+                float: left;
+            }
+
+            .info {
+                float: left;
+                margin: 30px;
+
+                .info_title {
+                    float: left;
+                    margin: 30px;
+                }
+
+                .info_text {
+                    float: left;
+                    margin: 30px;
+                }
+            }
+        }
+
+        .subTitle {
+            font-size: 30px;
+            text-align: center;
+            font-weight: bold;
+            margin: 30px;
+        }
+
+        .swiper {
+            width: 500px;
+            height: 300px;
+            .swiper-wrapper{
+
+            }
+        }
+        
+    </style>
+</head>
+
+<body>
+    <!-- 导入插件 -->
+    <script src="plug/swiper/swiper-bundle.min.js"></script>
+
+    <div class="subTitle">
+        自我介绍
+    </div>
+    <div class="infobox">
+        <div class="headpic">
+            <image src="img/mysel.jpg" mode="center"></image>
+        </div>
+        <div class="info">
+            <div class="info_title">姓名：</div>
+            <div class="info_text">白康瑞</div>
+            <br />
+            <div class="info_title">班级：</div>
+            <div class="info_text">计科213</div>
+            <br />
+            <div class="info_title">学号：</div>
+            <div class="info_text">21101100301</div>
+            <br />
+            <div class="info_title">电话：</div>
+            <div class="info_text">18383567089</div>
+            <br />
+            <div class="info_title">QQ：</div>
+            <div class="info_text">2245223783</div>
+        </div>
+    </div>
+    <div class="subTitle">
+        照片墙
+    </div>
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="img/pic (5).jpg" width="500">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/pic (2).jpg" width="500">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/pic (17).jpg" width="500">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/pic (6).jpg" width="500">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/pic (8).jpg" width="500">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/pic (9).jpg" width="500">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/pic (10).jpg" width="500">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/pic (11).jpg" width="500">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/pic (13).jpg" width="500">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/pic (14).jpg" width="500">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/pic (15).jpg" width="500">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/pic (16).jpg" width="500">
+            </div>
+           
+            <div class="swiper-slide">
+                <img src="img/pic (18).jpg" width="500">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/pic (19).jpg" width="500">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/pic (20).jpg" width="500">
+            </div>
+            
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+
+        <!-- 如果需要导航按钮 -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+    <script>        
+        var mySwiper = new Swiper ('.swiper', {
+          direction: 'horizontal', // 垂直切换选项
+          loop: true, // 循环模式选项
+          
+          // 如果需要分页器
+          pagination: {
+            el: '.swiper-pagination',
+          },
+          
+          // 如果需要前进后退按钮
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+          
+        })        
+        </script>
+</body>
+
+</html>
