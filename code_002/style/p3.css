@@ -1,0 +1,37 @@
+.back {
+    width: 50px;
+    height: 50px;
+    background-color: #faffb8;
+    border: 1px solid black;
+    font-weight: bold;
+    border-radius: 50%;
+    /* 让文字水平居中 */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* 固定左上角 */
+    position: fixed;
+    left: 30px;
+    top: 30px;
+  }
+  .box_main{
+    width: 1000px;
+    height: 800px;
+    margin: 0 auto;
+  }
+  .left{
+    width: 300px;
+    height: 100%;
+    background-color: #eaffd0;
+    float: left;
+
+  }
+  .right{
+    width: 700px;
+    height: 100%;
+    background-color: #fce38a;
+    float: left;
+  }
+
+
+

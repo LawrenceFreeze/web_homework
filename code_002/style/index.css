@@ -1,0 +1,26 @@
+h1 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+
+.img_box {
+  width: 1000px;
+  height: 700px;
+  /* background-color: #f0f; */
+  /* 通过父元素（他的父元素正好就是整个界面）来居中 */
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.p1{
+    margin: 30px;
+    display: inline-block;
+}
+img{
+    width: 400px;
+}

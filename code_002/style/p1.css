@@ -1,0 +1,25 @@
+.back {
+  width: 50px;
+  height: 50px;
+  background-color: #faffb8;
+  border: 1px solid black;
+  font-weight: bold;
+  border-radius: 50%;
+  /* 让文字水平居中 */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* 固定左上角 */
+  position: fixed;
+  left: 30px;
+  top: 30px;
+}
+
+.main {
+  background-color: #35b0ab;
+  width: 800px;
+  height: 500px;
+  /* 已经确定盒子宽度，只用margin就可以水平居中 */
+  margin: 0 auto;
+  margin-top: 30px;
+}
